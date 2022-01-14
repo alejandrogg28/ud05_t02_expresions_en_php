@@ -14,8 +14,14 @@
         $y=3;
         $z=$x*$y;
         echo $x." x ".$y." = ".$z."<br/>";
-        $z=$x%$i;
+        $z=$x%$y;
         echo $x." modulo ".$y." = ".$z."<br/>";
+        /*Operadores de asignación*/
+        $z-=$y;
+        echo "\$z-=\$y asigna a \$z ".$z."<br/>";
+        $z+=$x;
+        echo "\$z+=\$y asigna a \$z ".$z."<br/>";
+
     ?>
 </body>
 </html>
